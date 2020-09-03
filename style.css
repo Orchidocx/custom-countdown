@@ -33,7 +33,9 @@ video {
   position: fixed;
   left: 0;
   top: 0;
-
+  height: 100vh;
+  width: 100vw;
+  background: rgb(255 255 255 / 30%);
 }
 
 /* Container */
@@ -133,6 +135,7 @@ li span {
   
   video {
     object-fit: cover;
+    object-position: 70%;
     margin-top: -1px;
   }
 
