@@ -1,7 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Raleway&display=swap');
 
 html {
   box-sizing: border-box;
+  font-family: Raleway, Comfortaa, sans-serif;
 }
 
 body {
@@ -100,7 +101,9 @@ button {
   outline: none;
 }
 
-
+button:hover {
+  filter: brightness(110%);
+}
 
 /* Countdown */
 ul {
