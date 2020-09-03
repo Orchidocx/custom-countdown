@@ -7,7 +7,7 @@ const countdownBtn = document.getElementById('countdown-button');
 const timeElements = document.querySelectorAll('span');
 let countdownTitle = '';
 let countdownDate = '';
-let countdownValue = Date;
+let countdownValue = new Date();
 let coundtownActive;
 
 let savedCountdown;
