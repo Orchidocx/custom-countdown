@@ -16,7 +16,6 @@ const completeEl = document.getElementById('complete');
 const completeElInfo = document.getElementById('complete-info');
 const completeBtn = document.getElementById('complete-button');
 
-// In miliseconds
 const second = 1000; 
 const minute = second * 60;
 const hour = minute * 60;
